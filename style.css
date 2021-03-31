@@ -39,7 +39,7 @@ nav{
   padding: 27px 30px;
 }
 
-nav .logo{
+nav .logo a{
   font-family: "Inconsolata", sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -47,8 +47,6 @@ nav .logo{
   line-height: 25px;
   letter-spacing: -0.08em;
   color: #333;
-}
-nav .logo a{
   text-decoration: none;
   transition: all .3s ease-in-out
 }
