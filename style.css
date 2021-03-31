@@ -12,22 +12,20 @@ body {
 }
 
 /* Utelity */
-.container{
+.wrapper{
   width: auto;
   margin: 0 35px;
 }
 
-.row{
-  margin: 35px 0;
+.content{
+  height: 79vh;
   display: flex;
+  justify-content: center;
   flex-direction: row;
-  display: flex;
-  /*flex-wrap: wrap;*/
-  justify-content: space-between;
   align-items: center;
 }
 
-.col-one, .col-two{
+.img, .txt-with-btn{
   padding: 0 10px;
   margin-bottom: 45px;
 }
@@ -52,27 +50,21 @@ nav .logo a{
 }
 nav .logo a:hover{color: #ff6d5b}
 
-/* Heading */
-header{
+/* Main */
+main{
   padding: 0px 20px;
-}
-header .row{
-  /*background-image: url('Scarecrow.png');
-  background-size: 300px;
-  background-repeat: no-repeat;
-  background-position: left;
-  align-items: flex-end;*/
+  height: 78vh;;
 }
 
-header .row .col-two{ }
-header .row .col-two h1{
+main .content .txt-with-btn{ }
+main .content .txt-with-btn h1{
   font-size: 53px;
   color: #333;
   line-height: 72.78px;
   font-style: normal;
   font-weight: 700;
 }
-header .row .col-two p{
+main .content .txt-with-btn p{
   font-size: 24px;
   color: #4F4F4F;
   line-height: 36px;
@@ -82,7 +74,7 @@ header .row .col-two p{
   padding: 30px 0;
   width: 274px;
 }
-header .row .col-two button{
+main .content .txt-with-btn button{
   font-size: 14px;
   font-weight: 600;
   font-style: normal;
@@ -97,80 +89,87 @@ header .row .col-two button{
   cursor: pointer;
   transition: all .3s ease-in-out
 }
-header .row .col-two button:hover{
+main .content .txt-with-btn button:hover{
   background-color: #555;
   color: #ff6d5b
 }
 
-/* Footer */
-footer{
+main .content .txt-with-btn .footer{
   text-align: center;
   padding: 13px;
-  position: absolute;
-  bottom: 0;
-  margin: auto;
   width: 100%;
   
 }
-footer p{
+
+main .footer{
+  text-align: center;
+  padding: 43px 0 25px;
+  margin: auto;
+  width: 100%;
+}
+.footer p{
   color: #555;
 }
-footer a{
+.footer a{
   color: #000;
   text-decoration: underline;
 }
-footer a abbr{
+.footer a abbr{
   text-decoration: none;
 }
 
 
 /* Responsive */
-@media (max-width: 964px){
-  .row .col-one img{
+@media (max-width: 1024px){
+  .content .img img{
     width: 365px;
   }
-    header .row .col-two h1{
+  main .content .txt-with-btn h1{
     font-size: 43px;
     line-height: 68.78px;  
   }
-  header .row .col-two p{
+  main .content .txt-with-btn p{
     font-size: 20px;
     line-height: 32px;
     letter-spacing: -0.035em;
   }
-}
-
-@media (max-width: 768px){
-  .row{
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .row .col-one img{
-    width: 339px;
-  }
-  header .row .col-two{
-  margin-bottom: 23px;
-  }
-  header .row .col-two h1{
-    font-size: 38px;
-    line-height: 59.78px;  
-  }
-  header .row .col-two p{
-    font-size: 18px;
-  }
-  header .row .col-two button{
+    main .content .txt-with-btn button{
     margin-top: 5px;
     padding: 18px 23px;
   }
 }
+
+
+@media (max-width: 768px){
+  .content{
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .content .img img{
+    width: 339px;
+  }
+  main .content .txt-with-btn{
+  margin-bottom: 23px;
+  }
+  main .content .txt-with-btn h1{
+    font-size: 38px;
+    line-height: 59.78px;  
+  }
+  main .content .txt-with-btn p{
+    font-size: 18px;
+  }
+  main .content .txt-with-btn button{
+    padding: 18px 23px;
+  }
+}
 @media (max-width: 480px){
-  .row .col-one img{
+  .content .img img{
     width: 265px;
   }
 }
 
 @media (max-width: 320px){
-  .row .col-one img{
+  .content .img img{
     width: 225px;
   }
 }
