@@ -70,6 +70,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [hossam-dev14](https://{hossam-dev14})
+- GitHub [@hossam-dev14](https://{github.com/hossam-dev14})
+- Twitter [@hossam-dev](https://{twitter.com/hossam-dev})
