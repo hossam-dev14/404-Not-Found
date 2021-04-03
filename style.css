@@ -3,6 +3,10 @@
  /* General */
 body {
   font-family: "Space Mono", sans-serif;
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  grid-template-rows: auto 1fr auto;
 }
 
 *{
@@ -18,11 +22,13 @@ body {
 }
 
 .content{
-  height: 79vh;
+  height: auto;
   display: flex;
   justify-content: center;
   flex-direction: row;
   align-items: center;
+  /* margin-bottom: 12vh; */
+  /* margin-top: 12vh; */
 }
 
 .img, .txt-with-btn{
@@ -52,8 +58,7 @@ nav .logo a:hover{color: #ff6d5b}
 
 /* Main */
 main{
-  padding: 0px 20px;
-  height: 78vh;;
+  padding: 6em 20px;
 }
 
 main .content .txt-with-btn{ }
@@ -101,20 +106,19 @@ main .content .txt-with-btn .footer{
   
 }
 
-main .footer{
+footer{
   text-align: center;
-  padding: 43px 0 25px;
-  margin: auto;
+  padding: 20px 0;
   width: 100%;
 }
-.footer p{
+footer p{
   color: #555;
 }
-.footer a{
+footer a{
   color: #000;
   text-decoration: underline;
 }
-.footer a abbr{
+footer a abbr{
   text-decoration: none;
 }
 
@@ -162,6 +166,7 @@ main .footer{
     padding: 18px 23px;
   }
 }
+
 @media (max-width: 480px){
   .content .img img{
     width: 265px;
