@@ -33,7 +33,7 @@ body {
 
 .img, .txt-with-btn{
   padding: 0 10px;
-  margin-bottom: 45px;
+  /* margin-bottom: 45px; */
 }
 
 a:visited{color: #333}
@@ -58,7 +58,8 @@ nav .logo a:hover{color: #ff6d5b}
 
 /* Main */
 main{
-  padding: 6em 20px;
+  display: grid;
+  place-items: center;
 }
 
 main .content .txt-with-btn{ }
