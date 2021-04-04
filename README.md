@@ -37,22 +37,24 @@
 
 ![404-Not-Found](https://user-images.githubusercontent.com/73648971/113200902-cc7a1280-9260-11eb-8bcb-f034d6bdb924.PNG)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-This is my first project in devchalenge.io
+This is my first project from DevChalenge, Its a simple responsive Not-Found-Page was created using HTML and CSS.
+
+I used CSS Grid for layout and centering the main content (place-items: center). 
 
 
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
+This site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [Not-Found-Page]  (https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build a page to complete the given user stories.
 
-
+- [x] User story: This is a completed user stories
+- [ ] User story: This is a incompleted user stories
+- [ ] User story: This is a incompleted 2nd user stories
 
 ## Contact
 
-- Website [hossam-dev14](https://hossam-dev14)
 - GitHub [@hossam-dev14](https://github.com/hossam-dev14)
 - Twitter [@hossam-dev](https://twitter.com/hossam-dev)
 
