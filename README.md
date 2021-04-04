@@ -42,6 +42,12 @@ This is my first project from DevChalenge, Its a simple responsive Not-Found-Pag
 
 I used CSS Grid for layout and centering the main content (place-items: center). 
 
+- Layout:
+<img width="520" alt="Layout" src="https://user-images.githubusercontent.com/73648971/113505842-35031100-9539-11eb-91be-3b2d0ba033b6.png">
+
+- Centering:
+<img width="520" alt="Centering" src="https://user-images.githubusercontent.com/73648971/113505903-84494180-9539-11eb-9745-d63ac535e529.png">
+
 
 ## Features
 
