@@ -29,7 +29,7 @@
 - [Overview](#overview)
 - [Features](#features)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+- [Appreciation](#appreciation)
 
 <!-- OVERVIEW -->
 
@@ -39,10 +39,7 @@
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+This is my first project in devchalenge.io
 
 
 ## Features
@@ -60,6 +57,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - Twitter [@hossam-dev](https://twitter.com/hossam-dev)
 
 
-## Acknowledgements
+## Appreciation
 
-<h3> Thank You <a href="https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U">devchallenges.io</a> For Giving Us This Chance</h3>
+<h3> Thank You <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a> For Giving Us This Chance</h3>
