@@ -35,7 +35,7 @@
 
 ## Overview
 
-![404-Not-Found](https://user-images.githubusercontent.com/73648971/113200902-cc7a1280-9260-11eb-8bcb-f034d6bdb924.PNG)
+![404-Not-Found](https://user-images.githubusercontent.com/73648971/113200902-cc7a1280-9260-11eb-8bcb-f034d6bdb924.png)
 
 
 This is my first project from DevChalenge, Its a simple responsive Not-Found-Page was created using HTML and CSS.
